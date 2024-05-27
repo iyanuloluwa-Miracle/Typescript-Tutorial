@@ -1,13 +1,11 @@
-var character = 'mario';
-var age = 30;
-var isBlackBelt = false;
-//character = 20;
-character = 'iyanex';
-//age = 'yoshi';
-age = 40;
-//isBlackBelt = 'yes';
-isBlackBelt = true;
-var circ = function (diameter) {
-    return diameter * Math.PI;
+//arrays
+var names = ['lugi', 'mario', 'yoshi'];
+names.push('toad');
+var numbers = [10, 20, 30, 40];
+// objects
+var ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30
 };
-console.log(circ(7.5));
+ninja.age = 40;

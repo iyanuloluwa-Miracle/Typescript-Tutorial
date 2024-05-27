@@ -1,19 +1,19 @@
-let character = 'mario';
-let age = 30;
-let isBlackBelt = false;
+//arrays
+
+let names = ['lugi','mario', 'yoshi']
+
+names.push('toad');
+let numbers = [10,20,30,40];
 
 
-//character = 20;
-character = 'iyanex'
 
-//age = 'yoshi';
-age = 40;
 
-//isBlackBelt = 'yes';
-isBlackBelt = true;
+// objects
 
-const circ = (diameter:number) =>{
-    return diameter * Math.PI;
+let ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30
 }
 
-console.log(circ(7.5))
+ninja.age = 40;
