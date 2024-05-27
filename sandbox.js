@@ -1,4 +1,4 @@
-var character = 'mario';
+var character = 'Coderblack';
 console.log(character);
 var inputs = document.querySelectorAll('input');
 inputs.forEach(function (input) {
