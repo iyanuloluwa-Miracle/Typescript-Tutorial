@@ -1,19 +1,30 @@
-//arrays
+//explicit types
 
-let names = ['lugi','mario', 'yoshi']
-
-names.push('toad');
-let numbers = [10,20,30,40];
-
+let character:string;
+let age: number;
+let isLoggedIn: boolean;
 
 
+age=40;
 
-// objects
+isLoggedIn = true;
 
-let ninja = {
-    name: 'mario',
-    belt: 'black',
-    age: 30
-}
+let ninjas: string[] = [];
 
-ninja.age = 40;
+ninjas.push('shaun')
+
+let mixed: (string|number|boolean)[] =[];
+
+mixed.push('hello')
+mixed.push(20);
+mixed.push(false)
+console.log(mixed)
+
+
+let uid: string|number;
+uid = '123';
+uid = 123
+
+let ninjaOne: object;
+ninjaOne = { name: 'yoshi', age: 30};
+

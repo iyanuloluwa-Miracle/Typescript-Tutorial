@@ -1,11 +1,18 @@
-//arrays
-var names = ['lugi', 'mario', 'yoshi'];
-names.push('toad');
-var numbers = [10, 20, 30, 40];
-// objects
-var ninja = {
-    name: 'mario',
-    belt: 'black',
-    age: 30
-};
-ninja.age = 40;
+//explicit types
+var character;
+var age;
+var isLoggedIn;
+age = 40;
+isLoggedIn = true;
+var ninjas = [];
+ninjas.push('shaun');
+var mixed = [];
+mixed.push('hello');
+mixed.push(20);
+mixed.push(false);
+console.log(mixed);
+var uid;
+uid = '123';
+uid = 123;
+var ninjaOne;
+ninjaOne = { name: 'yoshi', age: 30 };
